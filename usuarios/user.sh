@@ -1,6 +1,8 @@
 #!/bin/bash
 
-sudo su
+
+echo "Executar esse script como super usuario!"
+
 diretorios=(adm ven sec)
 cd /
 echo "Criando os diretorios ..."
